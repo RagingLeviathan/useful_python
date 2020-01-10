@@ -7,3 +7,11 @@ else:
 
 # Output
 # palindrome
+# another way
+
+
+def palindrome(string):
+    return string == string[::-1]
+
+
+palindrome('python')  # False

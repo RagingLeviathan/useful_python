@@ -14,3 +14,10 @@ n = 4
 my_list = [0]*n  # n denotes the length of the required list
 print(my_list)
 # [0, 0, 0, 0]
+
+
+def repeat(string, n):
+    return string * n
+
+
+repeat('python', 3)  # pythonpythonpython
